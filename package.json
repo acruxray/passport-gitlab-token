@@ -1,0 +1,27 @@
+{
+  "name": "passport-gitlab-token",
+  "version": "0.1.0",
+  "description": "GitLab token authentication strategy for Passport.",
+  "author": {
+    "name": "Nazar Mozol",
+    "email": "work.nazar.mozol@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acruxray/passport-gitlab-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acruxray/passport-gitlab-token/issues"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "^1.0.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "https://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "gitlab", "auth", "authn", "authentication", "identity"]
+}
